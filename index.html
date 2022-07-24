@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+
+body {
+font-family: 'Outfit', sans-serif;
+font-size: 15px;
+  text-align: center;
+}
+
+.exterior-box {
+  background-color: hsl(212, 45%, 89%);
+  height: 70%;
+  margin: 6rem 2rem;
+  padding: 2rem;
+  /**box-shadow: 0 0.3rem 0.3rem 1rem hsl(220, 15%, 55%);**/
+}
+
+.text-box {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 15%;
+  padding: 8px;
+  margin-left: 42.5%;
+}
+
+.text {
+  padding: 0 15px ;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#small {
+  font-size: 10px;
+}
+
+.qr-box {
+  /**padding: 10px;**/
+}
+
+img {
+  border-radius: 5px;
+  height: 97%;
+  width: 97%;
+}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+
+<div class="exterior-box">
+  <div class="text-box">
+    <div class="qr-box">
+<img src="images/image-qr-code.png" alt="QR Code">
+    </div>
+    <div class="text">
+<p id="bold">Improve your front-end skills by building projects</p>
+
+<p id="small">
+  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+</div>
+</div>
+
+</div>
+
+<!-- Included with Project -->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
