@@ -29,8 +29,8 @@ Thank you again for reviewing my project. I look forward to any feedback!
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/SuperSloth11/qr-code-challenge)
+- Live Site URL: [Add live site URL here](https://supersloth11.github.io/qr-code-challenge/)
 
 ### Built with
 
